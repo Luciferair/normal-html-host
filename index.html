@@ -9,6 +9,38 @@
 </head>
 
 <body>
+    <style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #ffffff;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .lp-container {
+            width: 100%;
+            max-width: 1440px;
+            /* Matches the image width */
+            margin: 0 auto;
+            background-color: #fff;
+        }
+
+        .lp-slice {
+            display: block;
+            /* Removes bottom space often caused by inline images */
+            width: 100%;
+            height: auto;
+            border: none;
+        }
+    </style>
     <div class="lp-container">
         <!-- Main Visual / Slices -->
         <img src="/static/section_01.png" alt="Section 1" class="lp-slice">
